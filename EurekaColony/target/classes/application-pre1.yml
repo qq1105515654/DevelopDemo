@@ -1,0 +1,8 @@
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pre2:8889/eureka/
+  instance:
+    hostname: pre1

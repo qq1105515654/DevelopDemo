@@ -1,0 +1,9 @@
+server:
+  port: 8889
+eureka:
+  client:
+    service-url:
+      defaultZone: http://pre1:8888/eureka/
+      #将pre2注册到pre1中
+  instance:
+    hostname: pre2

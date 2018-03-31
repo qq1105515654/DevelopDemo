@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: pre1
+    #spring.spring.profiles.active=pre1  区分配置
+    #代表运行是加载的配置文件为  application-pre1.yml/application-pre1.properties
